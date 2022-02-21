@@ -1,0 +1,88 @@
+const data = [
+  {
+    name: "Estreito da Calheta, Madeira",
+    distance: "3,619",
+    date: "Mar 13 – 20",
+    price: "$213/night",
+    img: "1.jpg",
+  },
+  {
+    name: "Estreito da Calheta, Madeira",
+    distance: "3,619",
+    date: "Mar 13 – 20",
+    price: "$213/night",
+    img: "1.jpg",
+  },
+  {
+    name: "Estreito da Calheta, Madeira",
+    distance: "3,619",
+    date: "Mar 13 – 20",
+    price: "$213/night",
+    img: "1.jpg",
+  },
+  {
+    name: "Estreito da Calheta, Madeira",
+    distance: "3,619",
+    date: "Mar 13 – 20",
+    price: "$213/night",
+    img: "1.jpg",
+  },
+  {
+    name: "Estreito da Calheta, Madeira",
+    distance: "3,619",
+    date: "Mar 13 – 20",
+    price: "$213/night",
+    img: "1.jpg",
+  },
+  {
+    name: "Estreito da Calheta, Madeira",
+    distance: "3,619",
+    date: "Mar 13 – 20",
+    price: "$213/night",
+    img: "1.jpg",
+  },
+  {
+    name: "Estreito da Calheta, Madeira",
+    distance: "3,619",
+    date: "Mar 13 – 20",
+    price: "$213/night",
+    img: "1.jpg",
+  },
+  {
+    name: "Estreito da Calheta, Madeira",
+    distance: "3,619",
+    date: "Mar 13 – 20",
+    price: "$213/night",
+    img: "1.jpg",
+  },
+  {
+    name: "Estreito da Calheta, Madeira",
+    distance: "3,619",
+    date: "Mar 13 – 20",
+    price: "$213/night",
+    img: "1.jpg",
+  },
+  {
+    name: "Estreito da Calheta, Madeira",
+    distance: "3,619",
+    date: "Mar 13 – 20",
+    price: "$213/night",
+    img: "1.jpg",
+  },
+  {
+    name: "Estreito da Calheta, Madeira",
+    distance: "3,619",
+    date: "Mar 13 – 20",
+    price: "$213/night",
+    img: "1.jpg",
+  },
+  {
+    name: "Estreito da Calheta, Madeira",
+    distance: "3,619",
+    date: "Mar 13 – 20",
+    price: "$213/night",
+    img: "1.jpg",
+  },
+];
+
+export default data;
