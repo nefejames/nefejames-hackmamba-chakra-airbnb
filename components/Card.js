@@ -1,12 +1,6 @@
 import { Box, Image, Heading, Text, Flex, Stack } from "@chakra-ui/react";
 
-export default function Card({
-  img,
-  name = "Estreito da Calheta, Madeira",
-  distance = "3,619",
-  date = "Mar 13 – 20",
-  price = "213",
-}) {
+export default function Card({ img, name, distance, date, price }) {
   return (
     <Box w="full">
       <Image
