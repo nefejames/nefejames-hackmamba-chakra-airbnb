@@ -1,12 +1,14 @@
-import { ChakraProvider } from "@chakra-ui/react";
+import { ChakraProvider, ScaleFade } from "@chakra-ui/react";
 import Layout from "@layout/index";
 import theme from "theme/index";
 
-function MyApp({ Component, pageProps }) {
+function MyApp({ Component, pageProps, router  }) {
   return (
     <ChakraProvider theme={theme}>
       <Layout>
-        <Component {...pageProps} />
+        <ScaleFade key={router.route} initialScale={0.9} in="true">
+          <Component {...pageProps} />
+        </ScaleFade>
       </Layout>
     </ChakraProvider>
   );
