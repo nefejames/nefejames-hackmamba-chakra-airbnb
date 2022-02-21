@@ -21,10 +21,16 @@ export default function Card({
       />
       <Stack spacing="0">
         <Flex justifyContent="space-between">
-          <Heading as="h2" fontWeight="bold" color="gray.100" fontSize="16px">
+          <Heading
+            as="h2"
+            fontWeight="bold"
+            color="gray.100"
+            fontSize="16px"
+            isTruncated
+          >
             {name}
           </Heading>
-          <Text as="span" color="gray.100">
+          <Text as="span" color="gray.100" ml="4">
             ${price}/night
           </Text>
         </Flex>
