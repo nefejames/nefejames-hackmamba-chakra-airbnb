@@ -1,5 +1,4 @@
 import { Box, Image, Heading, Text, Flex, Stack } from "@chakra-ui/react";
-//add hover & page load amimations (framer)
 
 export default function Card({
   img,
